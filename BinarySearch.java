@@ -5,10 +5,10 @@ public class BinarySearch {
         System.out.println(Arrays.toString(numbers));
         int index = Arrays.binarySearch(numbers, 7);
         System.out.println("Index of 7 in the array: "+index);
-        System.out.println(" ");
+        System.out.println(" "); // |This is just for a row break
         index = Arrays.binarySearch(numbers, 10);
         System.out.println("Index of 10 in the array: "+index);
-        System.out.println("");
+        System.out.println(""); // |This is just for a row break
         index = Arrays.binarySearch(numbers, 11);
         System.out.println("Index of 11 in the array: "+ index);
     }
